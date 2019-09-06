@@ -1,17 +1,29 @@
 body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+    background: #a1dae3 url("../media/marble.jpg") repeat;
+    background-size: cover;
 }
-header{
 
+@media (min-width: 350 px) {
+    header a {
+        margin: 100px auto;
+        padding: 77px;
+        width: 50%;
+    }
 }
-header a{
+
+@media (min-width: 530 px) {
+    header a {
+        float: right;
+    }
+}
+
+header a {
     text-decoration-line: blink;
     display: inline-block;
-	padding: 20px;
+    padding: 20px;
     margin: 20px 10px;
     // maybe try a darker green for the outline of the box button and letters?
-	border: 1px solid ;	
-    background-color: #B0D785;
-    color: #ffffff;
+    border: 1px solid;
+    background-color: #b0d785;
+    color: #fff;
 }
-
