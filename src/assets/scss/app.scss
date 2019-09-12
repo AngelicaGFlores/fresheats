@@ -40,7 +40,7 @@ nav {
 
 nav ul {
     list-style: none;
-    flex-direction: row;
+    display: flex;
 }
 
 nav li {
@@ -49,4 +49,9 @@ nav li {
 
 nav li a {
     text-decoration-line: none;
+}
+
+.first-pic {
+    display: flex;
+    justify-content: center;
 }
